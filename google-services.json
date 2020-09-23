@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1004688900972",
+    "firebase_url": "https://cloudanchors-5007c.firebaseio.com",
+    "project_id": "cloudanchors-5007c",
+    "storage_bucket": "cloudanchors-5007c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004688900972:android:7f5c824cfcafcf9b0f2949",
+        "android_client_info": {
+          "package_name": "com.example.cloudanchors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004688900972-s6qp33nint4mhc60trefv38gujg8ob7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cloudanchors",
+            "certificate_hash": "38359028fc28dd17ed436df9d5ab2669b8ad03f7"
+          }
+        },
+        {
+          "client_id": "1004688900972-4i667up1smntlkvkfv98q7279hmkj1fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Gb4CzAk0OSNXEFOt1dNqOloZwRdfbio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004688900972-4i667up1smntlkvkfv98q7279hmkj1fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memory Palace</string>
+    <string name="add_text">Create Note</string>
+    <string name="add_image">Import Image</string>
+    <string name="loadButton">Load Room</string>
+    <string name="saveButton">Save Room</string>
+    <string name="textLoad">Add Note to Scene</string>
+    <string name="imageLoad">Add Image to Scene</string>
+    <string name="captionPlaceholder">Caption...</string>
+</resources>

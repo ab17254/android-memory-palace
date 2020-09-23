@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/sceneform_fragment"
+        android:name="com.example.test1.MyArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTaskbacr"
+        android:fillViewport="true"
+        tools:ignore="ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+            <ImageButton
+                android:id="@+id/addText"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/create_note"
+                android:text="@string/add_text" />
+
+            <ImageButton
+                android:id="@+id/addImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/create_image"
+                android:text="@string/add_image" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/captionPlaceholder"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:text="@string/loadButton" />
+
+</FrameLayout>
